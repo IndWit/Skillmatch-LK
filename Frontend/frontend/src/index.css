@@ -1,9 +1,8 @@
-/* Minimal base styles; Tailwind is loaded via CDN in index.html */
-html, body {
-  margin: 0;
-  padding: 0;
-  min-height: 100%;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional global resets or overrides (keep globals minimal and use utilities in markup instead) */
 
 /* Material Symbols fallback (icons loaded via Google Fonts) */
 .material-symbols-outlined {
@@ -13,4 +12,13 @@ html, body {
     'GRAD' 0,
     'opsz' 24;
   line-height: 1;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  line-height: 1;
+}
+
+.material-symbols-outlined.fill {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
 }

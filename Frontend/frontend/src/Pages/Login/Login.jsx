@@ -14,9 +14,9 @@ function Login() {
       {/* Centered card */}
       <main className="px-4 sm:px-6">
         <div className="mx-auto mt-10 sm:mt-14 w-full max-w-6xl rounded-2xl border border-gray-200 bg-white shadow">
-          <div className="grid grid-cols-1 lg:grid-cols-2">
+          <div className="grid grid-cols-1 md:grid-cols-2">
             {/* Left image */}
-            <div className="hidden lg:block">
+            <div className="hidden md:block">
               <div
                 className="h-[420px] w-full rounded-l-2xl bg-cover bg-center"
                 role="img"
